@@ -27,7 +27,7 @@ function Update () {
    var camX : float = Camera.main.transform.eulerAngles.x;
    var camY : float = Camera.main.transform.eulerAngles.y;
    var camZ : float = Camera.main.transform.eulerAngles.z;
-   Debug.Log("x: "+camX+"... y: "+camY+"... z:"+camZ);
+   //Debug.Log("x: "+camX+"... y: "+camY+"... z:"+camZ);
 
    // update colors based on x position
    //color0 = Color();
