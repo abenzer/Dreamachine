@@ -56,8 +56,10 @@
      <Compile Include="Assets\OVR\Scripts\Editor\OVRManagerEditor.cs" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
+     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShader.shader" />
      <None Include="Assets\OVR\Resources\Cubemap Blit.shader" />
      <None Include="Assets\OVR\Resources\OVRMRUnlit.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
@@ -65,6 +67,7 @@
      <None Include="Assets\OVR\Resources\OVRMRCameraFrameLit.shader" />
      <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
      <None Include="Assets\OVR\Resources\Texture2D Blit.shader" />
+     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrame.shader" />
      <None Include="Assets\OVR\Resources\OVRMRClipPlane.shader" />
      <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />

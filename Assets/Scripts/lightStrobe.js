@@ -1,4 +1,4 @@
-﻿var duration : float = 20.0;
+var duration : float = 20.0;
 var colorStart0 : Color = Color.red;
 var colorStart1 : Color = Color.blue;
 var color0 : Color = Color.red;
@@ -27,7 +27,7 @@ function Update () {
    var camX : float = Camera.main.transform.eulerAngles.x;
    var camY : float = Camera.main.transform.eulerAngles.y;
    var camZ : float = Camera.main.transform.eulerAngles.z;
-   //Debug.Log("x: "+camX+"... y: "+camY+"... z:"+camZ);
+   Debug.Log("x: "+camX+"... y: "+camY+"... z:"+camZ);
 
    // update colors based on x position
    //color0 = Color();
@@ -35,6 +35,8 @@ function Update () {
 
    // update speed based on y position
    configSpeed = camY / 5000;
+
+   Debug.Log("configSpeed: "+configSpeed+" color0: "+color0);
 }
 
 // delay
