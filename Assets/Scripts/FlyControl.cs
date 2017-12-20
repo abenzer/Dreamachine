@@ -9,8 +9,7 @@ public class FlyControl : MonoBehaviour
 	public GameObject eye;
 	
 	void Awake () {
-				Debug.Log("In Away for Fly Control");
-				eye = GameObject.FindWithTag ("Player");
+		eye = GameObject.FindWithTag ("Player");
 	}
 
 	void Update()
@@ -51,7 +50,7 @@ public class FlyControl : MonoBehaviour
 	{
 		Vector3 angles = transform.eulerAngles;
 		angles += new Vector3(-dist.y, dist.x, dist.z);
-		transform.eulerAngles = new Vector3(ClampAngle(angles.x), angles.y, angles.z);
+		//transform.eulerAngles = new Vector3(ClampAngle(angles.x), angles.y, angles.z);
 	}
 	
 	float ClampAngle(float angle)

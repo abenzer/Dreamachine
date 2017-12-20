@@ -9,9 +9,9 @@ public class VRMouseLook : MonoBehaviour {
 	private float mouseY = 0;
 	private float mouseZ = 0;
 
-	public bool enableYaw = false;
-	public bool autoRecenterPitch = false;
-	public bool autoRecenterRoll = false;
+	public bool enableYaw = true;
+	public bool autoRecenterPitch = true;
+	public bool autoRecenterRoll = true;
 
 	// Update is called once per frame
 	void Update () {
